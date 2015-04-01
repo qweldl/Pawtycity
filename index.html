@@ -1,0 +1,161 @@
+<DOCTYPE! html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    
+    
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+
+<!--Tabs******************************************-->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Pawty City</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Adopt A Pet</a></li>
+        <li><a href="#">Put A Pet For Adopt</a></li>
+        <li><a href="#">Who We Are</a></li>
+        <li><a href="#">Training Resource</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--Jumbotron*************************************-->
+
+<div class="jumbotron">
+<div class="container">
+  <div class="row">
+    <div class="col-md-4"><img src="images/dogUse.png" /></div>
+    <div class="col-md-4">
+        <br>
+        <br>
+        <h1>Pawty City</h1>     
+        <br> 
+           <div class="row">
+               <div class="col-md-11">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                            <span class="input-group-btn">
+                              <button class="btn btn-info btn-md" type="button"><span class="glyphicon glyphicon-search"></span> Search</button>
+                            </span>
+                    </div><!-- /input-group -->
+              </div><!-- /.col-lg-6 -->
+          </div><!-- /.row -->
+    </div>
+    <div class="col-md-4"><img src="images/catUse.png" /></div>
+  </div>
+</div>
+  
+
+      
+    </div>
+
+
+</div>
+<button type="button" id="expbt" class="btn btn-primary btn-block">EXPLORE</button>
+
+<!--Pet of the day********************************-->
+
+<div class="PetOfTheDay">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3"><img id="petOTD" src="images/petOTDUse.jpg" /></div>
+          <div class="col-md-3">
+              <h1>Pet Of The Day</h1>     
+              <p>Name: One Dog</p>
+              <p>Type: Husky</p>
+              <p>Gender: Male</p>
+              <p>Age: 2 Month</p>
+              <button class="btn btn-info btn-md" type="button">Adopt Me</button>
+          </div>
+    <div class="col-md-3"></div>
+  </div>
+    
+</div>
+<br>
+<br>
+
+<!--Image Gallery*********************************-->
+<!--Row number one-->
+<div class="container">
+<div class="row">
+  <div class="col-md-4">
+    <a href="images/dogUse.png" class="thumbnail">
+       
+      <img src="images/dogUse.png" class="img-circle" alt="Dog" style="width:150px;height:150px">
+      <p>This is a DOG!</p>
+      <button type="button" id="moreBt" class="btn btn-primary btn-sm">More</button>
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="images/dogUse.png" class="thumbnail">
+      
+      <img src="images/dogUse.png" alt="Dog" style="width:150px;height:150px">
+      <p>This is a DOG!</p>
+      <button type="button" id="moreBt" class="btn btn-primary btn-sm">More</button>
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="images/dogUse.png" class="thumbnail">
+       
+      <img src="images/dogUse.png" alt="Dog" style="width:150px;height:150px">
+      <p>This is a DOG!</p>
+      <button type="button" id="moreBt" class="btn btn-primary btn-sm">More</button>
+    </a>
+  </div>
+</div>
+
+<!--Row number two-->
+<div class="row">
+  <div class="col-md-4">
+    <a href="images/catUse.png" class="thumbnail">
+       
+      <img src="images/catUse.png" alt="Cat" style="width:150px;height:150px">
+      <p>This is a CAT!</p>
+      <button type="button" id="moreBt" class="btn btn-primary btn-sm">More</button>
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="images/catUse.png" class="thumbnail">
+      
+      <img src="images/catUse.png" alt="Cat" style="width:150px;height:150px">
+      <p>This is a CAT!</p>
+      <button type="button" id="moreBt" class="btn btn-primary btn-sm">More</button>
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="images/catUse.png" class="thumbnail">
+       
+      <img src="images/catUse.png" alt="Cat" style="width:150px;height:150px">
+      <p>This is a CAT!</p>
+      <button type="button" id="moreBt" class="btn btn-primary btn-sm">More</button>
+    </a>
+  </div>
+</div>
+</div>
+
+<!--Load more button*****************************-->
+
+<button type="button" id="loadBt" class="btn btn-primary btn-lg">Load More</button>
+
+
+
+</body>
+</html>
