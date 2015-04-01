@@ -1,9 +1,7 @@
 .jumbotron{
              margin-top: -20px;
 }
-#searchlength{
-             size: 10;
-}
+
 #expbt{
              margin-top: -30px;
 }
@@ -28,6 +26,12 @@ p{
              margin-left: 45%;
 }
 #loadBt{
+             float: right;
+             position: relative;
+             left: -45%; /* or right 50% */
+             text-align: left;
+}
+#register{
              float: right;
              position: relative;
              left: -45%; /* or right 50% */
