@@ -1,6 +1,9 @@
 .jumbotron{
              margin-top: -20px;
 }
+#searchlength{
+             size: 10;
+}
 #expbt{
              margin-top: -30px;
 }
