@@ -4,22 +4,28 @@
 #expbt{
              margin-top: -30px;
 }
+#petOTD{
+             margin-top: 20px;
+             
+}
 .PetOfTheDay{
              color: white;
              height: 230px;
              width: 100%;
              background-color: #e67e22;
 }
-#loadBt{
-              float: right;
-              position: relative;
-              left: -45%; /* or right 50% */
-              text-align: left;
+#adoptmebt{
+             margin-left: 33%;
 }
-#petOTD{
-              margin-top: 20px;
-             
+p{
+             text-align: center;
 }
 #moreBt{
-              margin-left: 45%;
+             margin-left: 45%;
+}
+#loadBt{
+             float: right;
+             position: relative;
+             left: -45%; /* or right 50% */
+             text-align: left;
 }
