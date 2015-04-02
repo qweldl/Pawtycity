@@ -41,3 +41,10 @@ p{
              margin-left: 30%;
             
 }
+/*all for detail page*/
+#detailpet{
+             margin-left: 90px;
+}
+#detailtext{
+             font-size: 15px;
+}
