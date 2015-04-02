@@ -34,6 +34,10 @@ p{
 #register{
              float: right;
              position: relative;
-             left: -45%; /* or right 50% */
+             left: -61%;
              text-align: left;
+}
+#form{
+             margin-left: 30%;
+            
 }
